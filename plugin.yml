@@ -1,17 +1,20 @@
-name: MaintenanceMode
+name: ServiceMode-Blui22
 main: Exxarion\MaintenanceMode\MM
 version: 1.0
-api: [1.11.0, 1.12.0]
+api: [1.11.0, 1.12.0, 2.0.0]
 load: POSTWORLD
-author: Exxarion
-description: Put your server in maintenance mode!
+author: Exxarion and Blui22
+description: Put your server in service mode!
 website: http://aplus-craft.tk
 commands:
- maintenance:
-  description: Enable/Disable Maintenance mode
-  usage: "/maintenance <on/off>"
-  permission: maintenance.cmd
+ servicemode:
+  description: Enable/Disable Service mode
+  usage: "/servicemode <on/off>"
+  permission: gb.cmd.servicemode
 permissions:
- maintenance.cmd:
-  description: "Allows users to enable/disable maintenance mode"
+ gb.cmd.servicemode:
+  description: "Allows users to enable/disable service mode"
+  default: op
+ gb.servicemode.allow:
+  description: "Allows users to login when in service mode"
   default: op
