@@ -1,9 +1,9 @@
-name: ServiceMode-Blui22
+name: ServiceMode-Biswarm22
 main: Exxarion\MaintenanceMode\MM
 version: 1.0
 api: [1.11.0, 1.12.0, 2.0.0]
 load: POSTWORLD
-author: Exxarion and Blui22
+author: Exxarion and Biswarm22
 description: Put your server in service mode!
 website: http://aplus-craft.tk
 commands:
